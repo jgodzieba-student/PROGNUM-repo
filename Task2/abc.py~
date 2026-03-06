@@ -1,0 +1,113 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "5d80c9e9-3d73-4d15-b4c8-c287f4ad1057",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a:\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b:\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c:\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x_2 = -1.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f\"a:\")\n",
+    "a = float(input())\n",
+    "\n",
+    "print(f\"b:\")\n",
+    "b = float(input())\n",
+    "\n",
+    "print(f\"c:\")\n",
+    "c = float(input())\n",
+    "\n",
+    "D = b**2 - 4*a*c\n",
+    "\n",
+    "if D > 0:\n",
+    "    x_1 = (-b+(D)**0.5)/(2*a)\n",
+    "    x_2 = (-b+(D)**0.5)/(2*a)\n",
+    "    print(f\"x_1 = {x_1}\")\n",
+    "    print(f\"x_2 = {x_2}\")\n",
+    "elif D == 0:\n",
+    "    x_1 = (-b+(D)**0.5)/(2*a)\n",
+    "    print(f\"x_2 = {x_1}\")\n",
+    "else:\n",
+    "    print(\"There are no roots\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3c7dcf47-6f7e-4e82-9f58-a2d2f382e2d8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Anaconda3-2025.06",
+   "language": "python",
+   "name": "anaconda3-2025.06"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
